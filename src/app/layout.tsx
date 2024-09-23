@@ -7,6 +7,9 @@ import SocketProvider from "../../providers/SocketProvide";
 
 const inter = Inter({ subsets: ["latin"] });
 
+// 환경 변수에서 publishableKey 가져오기
+const clerkPubKey = process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY;
+
 export const metadata: Metadata = {
   title: "Video Conference App",
   description: "A video conferencing application with meeting summary feature",
