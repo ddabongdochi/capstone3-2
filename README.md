@@ -1,4 +1,4 @@
-# Video Conferencing Platform
+# Integrated business management system
 
 A comprehensive video conferencing solution built with Next.js, offering robust real-time communication, project management, and team collaboration features.
 
